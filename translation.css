@@ -7,6 +7,7 @@ font-weight: 500;
     color: #FF7F00;
     margin-top: 120px;
     margin-bottom: 30px;
+    letter-spacing: 1px;
 
 
     
@@ -19,7 +20,19 @@ body {
     
 }
 
+div {
+  width: 300px;
+  
+  position: relative;
+  animation: abbey 4s;
+  animation-iteration-count: infinite;
+    padding-left: 100px
+}
 
+@keyframes abbey {
+  from {bottom: 1000px;}
+    to {top: auto;}
+}
 
 pre {
     text-align: center;
@@ -27,6 +40,14 @@ pre {
     font-style:normal;
     font-size: 22px;
     color: #fdec6e;
+    line-height: 1.5;
+    letter-spacing: .5px;
+    margin-top: 0px;
+    border-top-style: dotted;
+    border-left-style: dotted;
+    border-right-style: dotted;
+    border-bottom-style: dotted;
+
 }
 
 a:link {

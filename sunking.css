@@ -7,6 +7,10 @@ font-weight: 500;
     color: #FF7F00;
     margin-top: 80px;
     margin-bottom: 30px;
+    letter-spacing: 2px;
+    border-top-style: ridge;
+    border-radius: 10px;
+    border-top-color: antiquewhite
 
 
     
@@ -16,7 +20,6 @@ h2 {
     color: #fdec6e;
     font-family: temeraire, serif;
     font-style: oblique;
-    font-weight: 400;
     text-align: center;
     padding-bottom: 70px;
 
@@ -39,11 +42,37 @@ pre {
     font-style:normal;
     font-size: 22px;
     color: #fdec6e;
+    line-height: 1.5;
+    padding: inherit;
+    border-bottom-style:ridge;
+    border-bottom-color:antiquewhite;
+    border-bottom-width: 2px;
+    border-radius: 10px;
+    
+
+   
+
 }
+
+div {
+  width: 300px;
+  height: 00px;
+  position: relative;
+  animation: sun 5s infinite;
+    padding-left: 60px;
+}
+
+@keyframes sun {
+  from {top: 500px;}
+  to {top: 0px;}
+}
+
+
 
 a:link {
   text-decoration: none;
     color: #FF7F00;
+    padding: inherit
 }
 
 a:visited {
